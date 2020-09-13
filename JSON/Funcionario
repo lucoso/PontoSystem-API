@@ -1,0 +1,12 @@
+{
+  "nome": "John Doe",
+  "cartDeTrabalho": "123456789",
+	"cel": "9999-0000",
+  "cpf": "660.196.617",
+  "datanasc": "1990-04-10",
+	"email": "johndoe@gmail.com",
+	"funcao": "CEO",
+	"horaEntrada": "08:00:00",
+	"horaSaida": "17:00:00",
+  "sexo": "masculino"
+}
