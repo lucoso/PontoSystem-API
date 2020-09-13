@@ -1,0 +1,14 @@
+Para o recurso Falta, foi criado dois métodos POST, onde um é "automático" e outro "manual".
+
+- Automático: esse método foi criado para ser executado pelo cliente (consumidor da API) automaticamente ao final do dia, onde é verificado se algum ponto foi registrado durante o dia.
+Se não foi, ele cria um recurso "Falta" para aquele funcionário naquele dia. Nesse caso, não é necessário um input para esse recurso ser criado.
+
+- Manual: esse método é o "padrão", onde um usuário administrador (uma funcionária do RH da empresa, por exemplo) registra a Falta do funcionário. 
+Por baixo dos panos, o recurso já existe, pois foi criado no método automático. O usuário estaria apenas atualizando as informações, que nesse caso se trata apenas do motivo da falta.
+Para esse caso, temos o seguinte JSON para input dos dados:
+
+{
+"faltaID": 5,
+"motivo": "gripe"
+}
+
