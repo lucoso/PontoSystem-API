@@ -1,0 +1,9 @@
+Exemplo de JSON para o recurso Usuario:
+
+{ 
+"nomeDeUsuario": "johndoe",	
+"senha": "123456",
+"papel": "Usuario",
+"ativo": true,
+"funcionarioID": 6
+}
