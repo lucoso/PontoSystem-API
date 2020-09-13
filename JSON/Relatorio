@@ -1,0 +1,6 @@
+Exemplo de JSON para o recurso Relatorio:
+
+{
+"dataInicial": "2020-07-01",
+"dataFinal": "2020-09-30"
+}
